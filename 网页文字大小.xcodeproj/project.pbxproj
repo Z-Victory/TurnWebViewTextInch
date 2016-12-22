@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81ED57A31E0BD5E7005A8E3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED57A21E0BD5E7005A8E3C /* main.m */; };
+		81ED57A61E0BD5E8005A8E3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED57A51E0BD5E8005A8E3C /* AppDelegate.m */; };
+		81ED57A91E0BD5E8005A8E3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED57A81E0BD5E8005A8E3C /* ViewController.m */; };
+		81ED57AC1E0BD5E8005A8E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ED57AA1E0BD5E8005A8E3C /* Main.storyboard */; };
+		81ED57AE1E0BD5E8005A8E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81ED57AD1E0BD5E8005A8E3C /* Assets.xcassets */; };
+		81ED57B11E0BD5E8005A8E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ED57AF1E0BD5E8005A8E3C /* LaunchScreen.storyboard */; };
+		81ED57BC1E0BD5E8005A8E3C /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED57BB1E0BD5E8005A8E3C /* ______Tests.m */; };
+		81ED57C71E0BD5E8005A8E3C /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81ED57C61E0BD5E8005A8E3C /* ______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81ED57B81E0BD5E8005A8E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ED57961E0BD5E7005A8E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81ED579D1E0BD5E7005A8E3C;
+			remoteInfo = "网页文字大小";
+		};
+		81ED57C31E0BD5E8005A8E3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ED57961E0BD5E7005A8E3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81ED579D1E0BD5E7005A8E3C;
+			remoteInfo = "网页文字大小";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81ED579E1E0BD5E7005A8E3C /* 网页文字大小.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网页文字大小.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ED57A21E0BD5E7005A8E3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81ED57A41E0BD5E8005A8E3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81ED57A51E0BD5E8005A8E3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81ED57A71E0BD5E8005A8E3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		81ED57A81E0BD5E8005A8E3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		81ED57AB1E0BD5E8005A8E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81ED57AD1E0BD5E8005A8E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81ED57B01E0BD5E8005A8E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81ED57B21E0BD5E8005A8E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81ED57B71E0BD5E8005A8E3C /* 网页文字大小Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网页文字大小Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ED57BB1E0BD5E8005A8E3C /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		81ED57BD1E0BD5E8005A8E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81ED57C21E0BD5E8005A8E3C /* 网页文字大小UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网页文字大小UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ED57C61E0BD5E8005A8E3C /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		81ED57C81E0BD5E8005A8E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81ED579B1E0BD5E7005A8E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED57B41E0BD5E8005A8E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED57BF1E0BD5E8005A8E3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81ED57951E0BD5E7005A8E3C = {
+			isa = PBXGroup;
+			children = (
+				81ED57A01E0BD5E7005A8E3C /* 网页文字大小 */,
+				81ED57BA1E0BD5E8005A8E3C /* 网页文字大小Tests */,
+				81ED57C51E0BD5E8005A8E3C /* 网页文字大小UITests */,
+				81ED579F1E0BD5E7005A8E3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81ED579F1E0BD5E7005A8E3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81ED579E1E0BD5E7005A8E3C /* 网页文字大小.app */,
+				81ED57B71E0BD5E8005A8E3C /* 网页文字大小Tests.xctest */,
+				81ED57C21E0BD5E8005A8E3C /* 网页文字大小UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81ED57A01E0BD5E7005A8E3C /* 网页文字大小 */ = {
+			isa = PBXGroup;
+			children = (
+				81ED57A41E0BD5E8005A8E3C /* AppDelegate.h */,
+				81ED57A51E0BD5E8005A8E3C /* AppDelegate.m */,
+				81ED57A71E0BD5E8005A8E3C /* ViewController.h */,
+				81ED57A81E0BD5E8005A8E3C /* ViewController.m */,
+				81ED57AA1E0BD5E8005A8E3C /* Main.storyboard */,
+				81ED57AD1E0BD5E8005A8E3C /* Assets.xcassets */,
+				81ED57AF1E0BD5E8005A8E3C /* LaunchScreen.storyboard */,
+				81ED57B21E0BD5E8005A8E3C /* Info.plist */,
+				81ED57A11E0BD5E7005A8E3C /* Supporting Files */,
+			);
+			path = "网页文字大小";
+			sourceTree = "<group>";
+		};
+		81ED57A11E0BD5E7005A8E3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81ED57A21E0BD5E7005A8E3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81ED57BA1E0BD5E8005A8E3C /* 网页文字大小Tests */ = {
+			isa = PBXGroup;
+			children = (
+				81ED57BB1E0BD5E8005A8E3C /* ______Tests.m */,
+				81ED57BD1E0BD5E8005A8E3C /* Info.plist */,
+			);
+			path = "网页文字大小Tests";
+			sourceTree = "<group>";
+		};
+		81ED57C51E0BD5E8005A8E3C /* 网页文字大小UITests */ = {
+			isa = PBXGroup;
+			children = (
+				81ED57C61E0BD5E8005A8E3C /* ______UITests.m */,
+				81ED57C81E0BD5E8005A8E3C /* Info.plist */,
+			);
+			path = "网页文字大小UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81ED579D1E0BD5E7005A8E3C /* 网页文字大小 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ED57CB1E0BD5E8005A8E3C /* Build configuration list for PBXNativeTarget "网页文字大小" */;
+			buildPhases = (
+				81ED579A1E0BD5E7005A8E3C /* Sources */,
+				81ED579B1E0BD5E7005A8E3C /* Frameworks */,
+				81ED579C1E0BD5E7005A8E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网页文字大小";
+			productName = "网页文字大小";
+			productReference = 81ED579E1E0BD5E7005A8E3C /* 网页文字大小.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81ED57B61E0BD5E8005A8E3C /* 网页文字大小Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ED57CE1E0BD5E8005A8E3C /* Build configuration list for PBXNativeTarget "网页文字大小Tests" */;
+			buildPhases = (
+				81ED57B31E0BD5E8005A8E3C /* Sources */,
+				81ED57B41E0BD5E8005A8E3C /* Frameworks */,
+				81ED57B51E0BD5E8005A8E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81ED57B91E0BD5E8005A8E3C /* PBXTargetDependency */,
+			);
+			name = "网页文字大小Tests";
+			productName = "网页文字大小Tests";
+			productReference = 81ED57B71E0BD5E8005A8E3C /* 网页文字大小Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81ED57C11E0BD5E8005A8E3C /* 网页文字大小UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ED57D11E0BD5E8005A8E3C /* Build configuration list for PBXNativeTarget "网页文字大小UITests" */;
+			buildPhases = (
+				81ED57BE1E0BD5E8005A8E3C /* Sources */,
+				81ED57BF1E0BD5E8005A8E3C /* Frameworks */,
+				81ED57C01E0BD5E8005A8E3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81ED57C41E0BD5E8005A8E3C /* PBXTargetDependency */,
+			);
+			name = "网页文字大小UITests";
+			productName = "网页文字大小UITests";
+			productReference = 81ED57C21E0BD5E8005A8E3C /* 网页文字大小UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81ED57961E0BD5E7005A8E3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = IOS;
+				TargetAttributes = {
+					81ED579D1E0BD5E7005A8E3C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8228768954;
+						ProvisioningStyle = Automatic;
+					};
+					81ED57B61E0BD5E8005A8E3C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8228768954;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81ED579D1E0BD5E7005A8E3C;
+					};
+					81ED57C11E0BD5E8005A8E3C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8228768954;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81ED579D1E0BD5E7005A8E3C;
+					};
+				};
+			};
+			buildConfigurationList = 81ED57991E0BD5E7005A8E3C /* Build configuration list for PBXProject "网页文字大小" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81ED57951E0BD5E7005A8E3C;
+			productRefGroup = 81ED579F1E0BD5E7005A8E3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81ED579D1E0BD5E7005A8E3C /* 网页文字大小 */,
+				81ED57B61E0BD5E8005A8E3C /* 网页文字大小Tests */,
+				81ED57C11E0BD5E8005A8E3C /* 网页文字大小UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81ED579C1E0BD5E7005A8E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ED57B11E0BD5E8005A8E3C /* LaunchScreen.storyboard in Resources */,
+				81ED57AE1E0BD5E8005A8E3C /* Assets.xcassets in Resources */,
+				81ED57AC1E0BD5E8005A8E3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED57B51E0BD5E8005A8E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED57C01E0BD5E8005A8E3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81ED579A1E0BD5E7005A8E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ED57A91E0BD5E8005A8E3C /* ViewController.m in Sources */,
+				81ED57A61E0BD5E8005A8E3C /* AppDelegate.m in Sources */,
+				81ED57A31E0BD5E7005A8E3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED57B31E0BD5E8005A8E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ED57BC1E0BD5E8005A8E3C /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED57BE1E0BD5E8005A8E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ED57C71E0BD5E8005A8E3C /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81ED57B91E0BD5E8005A8E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81ED579D1E0BD5E7005A8E3C /* 网页文字大小 */;
+			targetProxy = 81ED57B81E0BD5E8005A8E3C /* PBXContainerItemProxy */;
+		};
+		81ED57C41E0BD5E8005A8E3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81ED579D1E0BD5E7005A8E3C /* 网页文字大小 */;
+			targetProxy = 81ED57C31E0BD5E8005A8E3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81ED57AA1E0BD5E8005A8E3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ED57AB1E0BD5E8005A8E3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81ED57AF1E0BD5E8005A8E3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ED57B01E0BD5E8005A8E3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81ED57C91E0BD5E8005A8E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81ED57CA1E0BD5E8005A8E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81ED57CC1E0BD5E8005A8E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8228768954;
+				INFOPLIST_FILE = "网页文字大小/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuyahe.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81ED57CD1E0BD5E8005A8E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8228768954;
+				INFOPLIST_FILE = "网页文字大小/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuyahe.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81ED57CF1E0BD5E8005A8E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8228768954;
+				INFOPLIST_FILE = "网页文字大小Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuyahe.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网页文字大小.app/网页文字大小";
+			};
+			name = Debug;
+		};
+		81ED57D01E0BD5E8005A8E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8228768954;
+				INFOPLIST_FILE = "网页文字大小Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuyahe.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网页文字大小.app/网页文字大小";
+			};
+			name = Release;
+		};
+		81ED57D21E0BD5E8005A8E3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8228768954;
+				INFOPLIST_FILE = "网页文字大小UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuyahe.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "网页文字大小";
+			};
+			name = Debug;
+		};
+		81ED57D31E0BD5E8005A8E3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8228768954;
+				INFOPLIST_FILE = "网页文字大小UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liuyahe.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "网页文字大小";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81ED57991E0BD5E7005A8E3C /* Build configuration list for PBXProject "网页文字大小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED57C91E0BD5E8005A8E3C /* Debug */,
+				81ED57CA1E0BD5E8005A8E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81ED57CB1E0BD5E8005A8E3C /* Build configuration list for PBXNativeTarget "网页文字大小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED57CC1E0BD5E8005A8E3C /* Debug */,
+				81ED57CD1E0BD5E8005A8E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81ED57CE1E0BD5E8005A8E3C /* Build configuration list for PBXNativeTarget "网页文字大小Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED57CF1E0BD5E8005A8E3C /* Debug */,
+				81ED57D01E0BD5E8005A8E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81ED57D11E0BD5E8005A8E3C /* Build configuration list for PBXNativeTarget "网页文字大小UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED57D21E0BD5E8005A8E3C /* Debug */,
+				81ED57D31E0BD5E8005A8E3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81ED57961E0BD5E7005A8E3C /* Project object */;
+}
